@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section:nth-child(odd) {
+  background: #fafafa;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 35px;
+  row-gap: 30px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.header nav {
+  display: flex;
+}
+
+.header nav a {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+}
+
+.header nav a:last-child {
+  margin-right: 0;
+}
+
+.header nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.header nav a:hover::after {
+  width: 100%;
+}
+
+/* header active */
+.header.active {
+  height: 80px;
+  background-color: #1B345C;
+  box-shadow: 3px 0 5px #333;
+}
+
+.header.active .logo {
+  width: 80px;
+}

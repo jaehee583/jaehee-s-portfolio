@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- jQuery -->
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- UIkit CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+  <!-- featherlight -->
+  <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js"></script>
+  <title>Jaehee's Portfolio</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img src="./images/logo_jaehee.png" alt="jaehee 로고">
+          </a>
+        </div>
+        <nav>
+          <a href="#about">about</a>
+          <a href="#skills">skills</a>
+          <a href="#web">web Publishing</a>
+          <a href="#practical">practical Publishing</a>
+        </nav>
+      </div>
+    </header>
+    <section class="welcome section">
+      <div class="container">
+        <div class="welcome-heading">
+          <div class="title">
+            <span>Hello,</span>
+            I Am Web Publisher
+          </div>
+          <ul class="hashtag">
+            <li>#Portfolio</li>
+            <li>#UI/UX Design</li>
+            <li>#Web Publishing</li>
+            <li>#Frontend Develop</li>
+          </ul>
+          <div class="btn-portfolio"><a href="#web">Portfolio &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-img">
+          <img src="./images/hello.PNG" alt="jaehee 이미지">
+        </div>
+        <div class="about-contents">
+          <div class="about-content-hello">
+            <h2>ABOUT</h2>
+            <p>
+              안녕하세요.<br>
+              꾸준히 배우고 성장하는 웹 퍼블리셔<br>
+              황재희(Hwang Jae Hee)입니다.
+            </p>
+          </div>
+          <div class="about-content">
+            <h3>Education</h3>
+            <p>
+              <span>2021. 02</span>
+              <span>유한대학교 시각디자인과 졸업</span>
+              <span>2022. 05</span>
+              <span>NCS직업훈련 프론트엔드&백엔드 웹앱개발자 과정 수료</span>
+            </p>
+          </div>
+          <div class="about-content">
+            <h3>Experience</h3>
+            <p>
+              <span>2021. 03 ~</span>
+              <span>일러스트 및 로고디자인</span>
+              <span>2022. 11</span>
+              <span>악세사리 브랜드 타임리스 아뜰리에 창업</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2>SKILLS</h2>
+        <ul class="skill-items grid-container">
+          <li class="skill-item">
+            <h3>HTML</h3>
+            <p>
+              웹 표준과 웹 접근성을 준수하는 HTML 정보<br>
+              구조 설계로 웹사이트 퍼블리싱을 하고 있습니다.<br>
+              HTML5에서 권장하는 마크업 방식과 시멘틱<br>
+              태그를 사용하여 전체적인 레이아웃을<br>
+              설계합니다. 또한 웹사이트를 퍼블리싱 하기 전<br>
+              기능정의서를 만들어 체계적인 퍼블리싱<br>
+              작업을 하고자 노력합니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>CSS</h3>
+            <p>
+              크로스브라우징을 위해 안정적인 CSS 속성을<br>
+              사용하여 HTML Elements를 배치합니다.<br>
+              CSS3에서 새롭게 지원하는 속성을 활용하여<br>
+              다양한 CSS배치 및 디자인을 할 수 있습니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>JS</h3>
+            <p>
+              네비게이션, 탭 메뉴, 아코디언 등 웹 퍼블리싱에<br>
+              반드시 필요한 상호작용은 플러그인을<br>
+              사용하지 않고 순수 제이쿼리 코딩으로 제작합니다.<br>
+              필수적인 자바스크립트 활용이 가능하며<br>
+              제이쿼리와 병행하여 사용합니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>RESPONSIVE WEB</h3>
+            <p>
+              크로스브라우징을 위해 안정적인 기존 방식<br>
+              float, position, media Query를 활용한<br>
+              웹 제작 경험을 충분히 가지고 있습니다.<br>
+              모바일 웹 앱 등 필요에 따라 flex, grid<br>
+              방식으로 반응형 웹 사이트를 제작합니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>MOBILE WEB APP</h3>
+            <p>
+              반응형 웹과 함께 모바일 대응 플랫폼에 대해<br>
+              이해하고 있으며, Mobile First(모바일 우선)로<br>
+              제작할 수 있습니다. UI UX 측면에서<br>
+              미적인 디자인 뿐 아니라 모바일 사용자 경험에<br>
+              최적화를 위한 효율적인 컨텐츠 배치를<br>
+              우선으로 생각하며 제작합니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>GIT</h3>
+            <p>
+              효율적인 버전관리 및 협업을 위해 git을<br>
+              사용할 수 있습니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>VS CODE</h3>
+            <p>
+              텍스트 에디터는 Visual Studio Code를<br>
+              메인으로 사용합니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>PHOTOSHOP / ILLUSTRATOR</h3>
+            <p>
+              Adobe Photoshop, Adobe Illustrator를<br>
+              활용하여 웹사이트 UI 디자인<br>
+              작업 및 협업을 할 수 있습니다.
+            </p>
+          </li>
+          <li class="skill-item">
+            <h3>XD</h3>
+            <p>
+              Adobe XD를 활용하여 웹사이트 UI 디자인,<br>
+              프로토타입 작업 및 협업을 할 수 있습니다.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="web section" id="web">
+      <div class="container">
+        <h2>WEB PUBLISHING</h2>
+        <input type="radio" name="tabmenu-web" id="web-tab1" checked>
+        <input type="radio" name="tabmenu-web" id="web-tab2">
+        <input type="radio" name="tabmenu-web" id="web-tab3">
+        <input type="radio" name="tabmenu-web" id="web-tab4">
+        <input type="radio" name="tabmenu-web" id="web-tab5">
+        <div class="tab-nav">
+          <label for="web-tab1">A.P.C.</label>
+          <label for="web-tab2">Hollys</label>
+          <label for="web-tab3">Megabox</label>
+          <label for="web-tab4">Paikdabang</label>
+          <label for="web-tab5">Studio Tomboy</label>
+        </div>
+        <div class="tab-content content1">
+          <div class="tab-content-img">
+            <img src="./images/apc.png" alt="apc">
+          </div>
+          <div class="tab-content-text">
+            <h3>
+              <img src="./images/apc-logo.png" alt="apc-logo">
+            </h3>
+            <div class="title">프로젝트 개요</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing
+              elit.
+            </div>
+            <div class="title">작업 기간</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <div class="title">작업 참여</div>
+            <div class="text">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="title">제작 방식</div>
+            <div class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <div class="btn">
+              <a href="https://jaehee583.github.io/A.P.C./" data-featherlight="iframe">
+                <div class="btn-pc">PC version</div>
+              </a>
+              <a href="./portfolio/website-publishing/mobile-mockup.html" data-featherlight="iframe">
+                <div class="btn-m">Moblie version</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content content2">
+          <div class="tab-content-img">
+            <img src="./images/hollys.png" alt="hollys">
+          </div>
+          <div class="tab-content-text">
+            <h3>
+              <img src="./images/hollys-logo.gif" alt="hollys 로고">
+            </h3>
+            <div class="title">프로젝트 개요</div>
+            <div class="text">
+              웹사이트의 기본이 되는 네비게이션, 슬라이더 등이 포함된 할리스 웹사이트를 클론코딩 대상으로 정하였습니다.
+              레이아웃 방식을 디자인에 적합하게 Grid 기반으로 하였으며,
+              bxSlider를 제외한 모든 퍼블리싱작업은 하드코딩으로 제작하였습니다.
+            </div>
+            <div class="title">작업 기간</div>
+            <div class="text">
+              약 7일 소요
+            </div>
+            <div class="title">작업 참여</div>
+            <div class="text">
+              100% 개인 작업
+            </div>
+            <div class="title">제작 방식</div>
+            <div class="text">
+              HTML + CSS + JavaScript<br>
+              bxSlider
+            </div>
+            <div class="btn">
+              <a href="https://jaehee583.github.io/hollys/" data-featherlight="iframe">
+                <div class="btn-pc">PC version</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content content3">
+          <div class="tab-content-img">
+            <img src="./images/megabox.png" alt="megabox">
+          </div>
+          <div class="tab-content-text">
+            <h3>
+              <img src="./images/megabox-logo.png" alt="megabox 로고">
+            </h3>
+            <div class="title">프로젝트 개요</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique libero culpa repudiandae quos
+              quibusdam architecto
+            </div>
+            <div class="title">작업 기간</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <div class="title">작업 참여</div>
+            <div class="text">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="title">제작 방식</div>
+            <div class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <div class="btn">
+              <a href="https://jaehee583.github.io/megabox/" data-featherlight="iframe">
+                <div class="btn-pc">PC version</div>
+              </a>
+              <a href="./portfolio/website-publishing/mobile-mockup03.html" data-featherlight="iframe">
+                <div class="btn-m">Moblie version</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content content4">
+          <div class="tab-content-img">
+            <img src="./images/paikdabang.png" alt="paikdabang">
+          </div>
+          <div class="tab-content-text">
+            <h3>
+              <img src="./images/paikdabang-logo.png" alt="paikdabang 로고">
+            </h3>
+            <div class="title">프로젝트 개요</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique libero culpa repudiandae quos
+            </div>
+            <div class="title">작업 기간</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <div class="title">작업 참여</div>
+            <div class="text">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="title">제작 방식</div>
+            <div class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <div class="btn">
+              <a href="https://jaehee583.github.io/paik/" data-featherlight="iframe">
+                <div class="btn-pc">PC version</div>
+              </a>
+              <a href="./portfolio/website-publishing/mobile-mockup04.html" data-featherlight="iframe">
+                <div class="btn-m">Moblie version</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content content5">
+          <div class="tab-content-img">
+            <img src="./images/studio-tomboy.png" alt="studio tomboy">
+          </div>
+          <div class="tab-content-text">
+            <h3>
+              <img src="./images/studiotomboy-logo.png" alt="studio tomboy 로고">
+            </h3>
+            <div class="title">프로젝트 개요</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique libero culpa repudiandae quos
+              quibusdam architecto cumque voluptatum minus
+            </div>
+            <div class="title">작업 기간</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet.
+            </div>
+            <div class="title">작업 참여</div>
+            <div class="text">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="title">제작 방식</div>
+            <div class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <div class="btn">
+              <a href="https://jaehee583.github.io/studio-tomboy/" data-featherlight="iframe">
+                <div class="btn-pc">PC version</div>
+              </a>
+              <a href="./portfolio/website-publishing/mobile-mockup05.html" data-featherlight="iframe">
+                <div class="btn-m">Moblie version</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="practical section" id="practical">
+      <div class="container">
+        <h2>PRACTICAL PUBLISHING</h2>
+        <input type="radio" name="tabmenu-prac" id="prac-tab1" checked>
+        <input type="radio" name="tabmenu-prac" id="prac-tab2">
+        <input type="radio" name="tabmenu-prac" id="prac-tab3">
+        <input type="radio" name="tabmenu-prac" id="prac-tab4">
+        <input type="radio" name="tabmenu-prac" id="prac-tab5">
+        <div class="tab-nav">
+          <label for="prac-tab1">Prototype</label>
+          <label for="prac-tab2">Hover</label>
+          <label for="prac-tab3">Animation</label>
+          <label for="prac-tab4">Navigation</label>
+          <label for="prac-tab5">JS</label>
+        </div>
+        <div class="tab-content content1">
+          <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+            <div>
+              <a class="uk-inline" href="./portfolio/practical-publishing/prototype01/login.html"
+                data-caption="login-form">
+                <img src="./portfolio/practical-publishing/prototype01/login.png" width="1800" height="1200">
+              </a>
+            </div>
+            <div>
+              <a class="uk-inline" href="./portfolio/practical-publishing/prototype02/checkbox.html"
+                data-caption="Caption 2">
+                <img src="./portfolio/practical-publishing/prototype02/checkbox.png" width="1800" height="1200">
+              </a>
+            </div>
+            <div>
+              <a class="uk-inline" href="./portfolio/practical-publishing/prototype03/dashboard.html"
+                data-caption="Caption 3">
+                <img src="./portfolio/practical-publishing/prototype03/dashboard.png" width="1800" height="1200">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="tab-content content1">
+          <div class="tab-img grid-container">
+            <img src="./images/welcome.png" alt="Prototype01">
+            <img src="./images/welcome.png" alt="Prototype02">
+            <img src="./images/welcome.png" alt="Prototype03">
+            <img src="./images/welcome.png" alt="Prototype04">
+            <img src="./images/welcome.png" alt="Prototype05">
+            <img src="./images/welcome.png" alt="Prototype06">
+          </div>
+        </div>
+        <div class="tab-content content2">
+          <div class="tab-img grid-container">
+            <img src="" alt="Hover01">
+            <img src="" alt="Hover02">
+            <img src="" alt="Hover03">
+            <img src="" alt="Hover04">
+            <img src="" alt="Hover05">
+            <img src="" alt="Hover06">
+          </div>
+        </div>
+        <div class="tab-content content3">
+          <div class="tab-img grid-container">
+            <img src="" alt="Animation01">
+            <img src="" alt="Animation02">
+            <img src="" alt="Animation03">
+            <img src="" alt="Animation04">
+            <img src="" alt="Animation05">
+            <img src="" alt="Animation06">
+          </div>
+        </div>
+        <div class="tab-content content4">
+          <div class="tab-img grid-container">
+            <img src="" alt="Navigation01">
+            <img src="" alt="Navigation02">
+            <img src="" alt="Navigation03">
+            <img src="" alt="Navigation04">
+            <img src="" alt="Navigation05">
+            <img src="" alt="Navigation06">
+          </div>
+        </div>
+        <div class="tab-content content5">
+          <div class="tab-img grid-container">
+            <img src="" alt="JS01">
+            <img src="" alt="JS02">
+            <img src="" alt="JS03">
+            <img src="" alt="JS04">
+            <img src="" alt="JS05">
+            <img src="" alt="JS06">
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section class="epilogue section" id="epilogue">
+      <div class="container">
+        <p>
+          <strong>‘기술은 예술을 필요로 하지 않지만, 예술은 기술을 필요로한다.’</strong><br>
+          발터 그로피우스의 말을 보고 웹퍼블리셔가 되기로 결심했습니다.<br>
+          초심을 잃지 않고 책임을 다해 성장해 나갈 것을 약속드립니다.
+        </p>
+      </div>
+    </section>
+    <div class="to-top">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </div>
+  <script>
+    // Header
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 50) {
+        $('header').addClass('active')
+        $('.to-top').addClass('active')
+      } else {
+        $('header').removeClass('active')
+        $('.to-top').removeClass('active')
+      }
+    })
+  </script>
+</body>
+
+</html>

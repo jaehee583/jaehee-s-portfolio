@@ -1,0 +1,354 @@
+@charset "utf-8";
+
+/* welcome */
+.welcome {
+  height: 100vh;
+  background-color: #1B345C;
+  background: url(../images/welcome.png) no-repeat center center/cover fixed;
+}
+
+.welcome-heading {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+}
+
+.welcome-heading .title {
+  font-size: 55px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.welcome-heading .title span {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.welcome-heading .hashtag {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.welcome-heading .hashtag li {
+  margin-right: 15px;
+}
+
+.btn-portfolio {
+  width: 120px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 9px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-portfolio:hover {
+  background-color: #fff;
+  color: #1B345C;
+  border-color: #1B345C;
+}
+
+/* 공통 */
+.section h2 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #1B345C;
+  text-align: center;
+}
+
+/* about */
+.about .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  width: 450px;
+  height: 450px;
+  margin-left: 110px;
+}
+
+.about-content-hello h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-content-hello p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.about-content:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.about-content h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1B345C;
+}
+
+.about-content p {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
+.about-content p span {
+  margin-bottom: 10px;
+}
+
+/* skills */
+.skill-item {
+  text-align: center;
+  height: 270px;
+  box-shadow: 0 7px 10px rgba(27, 52, 98, 0.2);
+}
+
+.skill-item p {
+  font-size: 15px;
+}
+
+.skill-item:nth-child(7),
+.skill-item:nth-child(8),
+.skill-item:nth-child(9) {
+  height: 200px;
+}
+
+.skill-item h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #1B345C;
+}
+
+/* web */
+
+.featherlight .featherlight-content {
+  margin-left: 0;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.featherlight iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.featherlight .featherlight-close-icon {
+  position: absolute;
+  z-index: 9999;
+  top: 30px;
+  left: 30px;
+  line-height: 25px;
+  width: 25px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  padding: 0;
+  font-size: 40px;
+  outline: none;
+}
+
+.web {
+  position: relative;
+  padding-bottom: 650px;
+}
+
+.tab-content {
+  width: 1200px;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tab-nav label {
+  padding: 10px 23px;
+  cursor: pointer;
+}
+
+.tab-nav label:last-child {
+  margin-right: 0;
+}
+
+.tab-content-img {
+  width: 550px;
+  height: 550px;
+}
+
+.tab-content-text {
+  width: 550px;
+}
+
+.tab-content-text h3 {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.tab-content-text .title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1B345C;
+}
+
+.tab-content-text .text {
+  margin-bottom: 20px;
+}
+
+.tab-content-text .btn {
+  margin-top: 30px;
+  display: flex;
+}
+
+.tab-content-img {
+  width: 550px;
+  height: 550px;
+  margin-right: 100px;
+}
+
+.tab-content-img img {
+  width: 550px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-pc,
+.btn-m {
+  padding: 10px 15px;
+  background-color: #1B345C;
+  border: 1px solid #1B345C;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-pc:hover,
+.btn-m:hover {
+  background-color: #fff;
+  color: #1B345C;
+}
+
+.btn-pc {
+  margin-right: 20px;
+}
+
+/* practical */
+.practical {
+  position: relative;
+  margin-bottom: 500px;
+}
+
+.practical .tab-content {
+  width: 1200px;
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.grid-container img {
+  width: 380px;
+}
+
+input {
+  display: none;
+}
+
+input[id="web-tab1"]:checked~.content1,
+input[id="web-tab2"]:checked~.content2,
+input[id="web-tab3"]:checked~.content3,
+input[id="web-tab4"]:checked~.content4,
+input[id="web-tab5"]:checked~.content5,
+input[id="prac-tab1"]:checked~.content1,
+input[id="prac-tab2"]:checked~.content2,
+input[id="prac-tab3"]:checked~.content3,
+input[id="prac-tab4"]:checked~.content4,
+input[id="prac-tab5"]:checked~.content5 {
+  opacity: 1;
+  visibility: visible;
+}
+
+input[id="web-tab1"]:checked~.tab-nav label[for="web-tab1"],
+input[id="web-tab2"]:checked~.tab-nav label[for="web-tab2"],
+input[id="web-tab3"]:checked~.tab-nav label[for="web-tab3"],
+input[id="web-tab4"]:checked~.tab-nav label[for="web-tab4"],
+input[id="web-tab5"]:checked~.tab-nav label[for="web-tab5"],
+input[id="prac-tab1"]:checked~.tab-nav label[for="prac-tab1"],
+input[id="prac-tab2"]:checked~.tab-nav label[for="prac-tab2"],
+input[id="prac-tab3"]:checked~.tab-nav label[for="prac-tab3"],
+input[id="prac-tab4"]:checked~.tab-nav label[for="prac-tab4"],
+input[id="prac-tab5"]:checked~.tab-nav label[for="prac-tab5"] {
+  background-color: #1B345C;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* epilogue */
+.epilogue p {
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.epilogue p strong {
+  font-weight: 400;
+  color: #1B345C;
+}
+
+/* to-top */
+.to-top {
+  opacity: 0;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9;
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #1B345C;
+  box-shadow: 5px 5px 5px rgba(27, 52, 98, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.to-top.active {
+  opacity: 1;
+}
